@@ -8,6 +8,8 @@ void main() {
 class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return MaterialApp(
+      home: HomePage(),
+    );
   }
 }
